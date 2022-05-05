@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StarBank</title>
+</head>
+
+<body>
+
+    <div>
+        <center>
+            <img src="img/starcadastro.png" alt="Logo do Entra21" width="200px" height="">
+        </center>
+    </div>
+
+    <div>
+        <center>
+            <h1>Cadastro StarBank</h1>
+            <nav>
+                <a href="index.html"> Home</a>
+                <a href="empresa.html"> O StarBank</a>
+                <a href="servicos.html"> Serviços</a>
+                <a href="cadastro.html"> Cadastro</a>
+            </nav>
+        </center>
+
+        <form action="enviaemail.cs" method="get">
+
+            <!--Criando espaços para inserir informações-->
+            <p align="Left">
+
+
+                <label><strong>CPF:</strong></label>
+                <input type="number" name="CPF" required placeholder="CPF">
+    
+                <label><strong>RG:</strong></label>
+                <input type="number" name="RG" required placeholder="RG">
+    
+                <label><strong>Nome:</strong></label>
+                <input type="text" name="nome" required placeholder="Nome Completo">
+    
+                <label><strong>E-mail:</strong></label>
+                <input type="email" name="email" required placeholder="E-mail">
+    
+                <label><strong>Celular:</strong></label>
+                <input type="number" name="celular" required placeholder="Celular">
+    
+                <label><strong>Senha:</strong></label>
+                <input type="password" name="senha" required>
+    
+                <label><strong>Endereço:</strong></label>
+                <input type="text" name="endereço" required>
+    
+                <label><strong>N°:</strong></label>
+                <input type="number" name="numero" required>
+    
+                <label><strong>Bairro:</strong></label>
+                <input type="text" name="bairro" required>
+    
+                <label><strong>Cidade:</strong></label>
+                <input type="text" name="cidade" required>
+    
+                <!--Selecionando opções no formulário radio-->
+                <label>Nacionalidade: </label>
+                <span>
+                    <input type="radio" name="Nacionalidade" value="M"> Brasileiro
+                    <input type="radio" name="Nacionalidade" value="F"> Outro
+                </span>
+    
+                <!--Selecionando opções no formulário com select-->
+                <select name="estado">
+                    <option value="">Selecione o estado</option>
+                    <option value="SC">Santa Catarina</option>
+                    <option value="PR">Paraná</option>
+                    <option value="RS">Rio Grande do Sul</option>
+                </select>
+    
+                <select name="sexo">
+                    <option value="">Sexo</option>
+                    <option value="M">Masculino</option>
+                    <option value="F">Feminino</option>
+                </select>
+    
+                <label></label>
+                <input type="checkbox" name="Autorização" value="">Aceito receber comunicações do StarBank por WhatsApp.
+    
+                <!--Botões no Formulário-->
+                <button type="submit"><strong>Enviar</strong></button>
+                <button type="reset"><strong>Limpar</strong></button>
+                
+            </p>
+
+        </form>
+    </div>
+
+</body>
+
+</html
