@@ -1,0 +1,15 @@
+html, body, h2{
+    margin: 0;
+    padding: 0;
+}
+.logosite{
+    float: left;
+    width: 150px;
+}
+.select{
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 100%;
+    height: 50px;
+}
