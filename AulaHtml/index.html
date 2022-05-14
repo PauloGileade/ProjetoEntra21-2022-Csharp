@@ -12,149 +12,60 @@
 <body>
 
     <header>
-
         <nav>
 
-            <img src="img/logonetfilx.png" alt="Logo da Netfilx" class="logosite">
+            <img src="img/logonetfilx.png" alt="Logo da Netfilx">
 
-            <div class="select">
+            <select name="Selecione o idioma">
+                <option value="" selected>Português</option>
+                <option value="">English</option>
+            </select>
 
-                <select name="Selecione o idioma">
-                    <option value="" selected>Português</option>
-                    <option value="">English</option>
-                </select>
-    
-                <button type="submit"><strong><a href="Login.html"> Entre</a></strong></button><br>
+            <button class="buttonEntrar" type="submit"><strong> Entrar</strong></button>
+
+            <center>
+                <h1>Filmes, séries e muito mais.<br>Sem limites.</h1>
+            </center>
+
+            <center>
+                <h3>Assista onde quiser. Cancele quando quiser.</h3>
+            </center>
+
+            <center>
+                <h4>Pronto para assistir? Informe seu email para criar ou reiniciar sua assinatura.</h4>
+            </center>
+
+            <div>
+
+                <center>
+
+                    <input class="spaceEmail" type="email" name="email" required placeholder="E-mail">
+                    <button class="buttonEmail" type="submit"><strong>Vamos lá ></strong></button>
+
+                </center>
 
             </div>
 
         </nav>
-
-    </header><br>
+    </header>
 
     <main>
-
         <article>
 
-            <div class="homeArticle">
+            <section>
 
-                <center>
-                    <h1>Filmes, séries e muito mais. Sem limites.</h1>
-                </center>
+                <ul class="carousel">
+                    <li><img src="img/01netfilx.png" alt=""></li>
+                    <li><img src="img/01netfilx.png""></li>
+                    <li><img src="img/01netfilx.png""></li>
+                    <li><img src="img/01netfilx.png" alt=""></li>
+                </ul>
 
-                <center>
-                    <h3>Assista onde quiser. Cancele quando quiser.</h3>
-                </center>
-
-                <center>
-                    <p>Pronto para assistir? Informe seu email para criar ou reiniciar sua assinatura.</p>
-                </center>
-
-            </div><br>
-
-            <center>
-                <label><strong></strong></label>
-                <input type="email" name="email" required placeholder="E-mail"> <button type="submit"><strong>Vamos
-                        lá</strong></button><br>
-            </center>
-
-            <div class="homeArticle">
-
-                <h2>Aproveite na TV.</h2>
-
-                <p>Assista em Smart TVs, PlayStation, Xbox, Chromecast, Apple TV, aparelhos de Blu-ray e outros
-                    dispositivos.</p>
-
-                <video autoplay muted loop width="500px">
-                    <source src="videos/600609295.mp4" type="video/mp4">
-                </video><br>
-
-                <audio src="audio/bella-ciao.mp3" controls></audio>
-
-            </div>
-
-            <div class="homeArticle">
-
-                <h2>Baixe séries para assistir offline.</h2>
-
-                <p>Salve seus títulos favoritos e sempre tenha algo para assistir.</p>
-
-                <img src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/mobile-0819.jpg"
-                    alt="" width="500px">
-
-            </div>
-
-            <div class="homeArticle">
-
-                <h2>Assista quando quiser.</h2>
-
-                <p>Assista no celular, tablet, Smart TV ou notebook sem pagar a mais por isso.</p>
-
-                <video autoplay muted loop width="500px">
-                    <source src="videos/videocar.mp4" type="video/mp4">
-                </video><br>
-            </div>
-
-            <div class="homeArticle">
-
-                <h2 align="right">Crie perfis para crianças.</h2>
-
-                <p align="right">Deixe as crianças se aventurarem com seus personagens favoritos em um espaço feito só
-                    para elas, sem pagar a mais por isso.</p>
-
-                <img src="img/01netfilx.png" alt="" width="500px">
-
-            </div>
-
-            <div class="homeArticle">
-
-                <center>
-                    <h1>Perguntas frequentes</h1>
-                </center>
-
-                <center>
-
-                    <select name="O que é a Netfilx">
-                        <option value="" selected>O que é a Netfilx?</option>
-                    </select><br>
-
-                    <select name="Quanto custar a Netfilx">
-                        <option value="">Quanto custar a Netfilx?</option>
-                    </select><br>
-
-                    <select name="Onde posso assistir?">
-                        <option value="" selected>Onde posso assistir?</option>
-                    </select><br>
-
-                    <select name="Como faço para cancelar">
-                        <option value="">Como faço para cancelar?</option>
-                    </select><br>
-
-                    <select name="O que eu posso assistir na Netfilx">
-                        <option value="">O que eu posso assistir na Netfilx?</option>
-                    </select><br>
-
-                    <select name="Como faço para cancelar">
-                        <option value="">A Netfilx é adequada para crianças?</option>
-                    </select><br>
-
-                </center>
-
-                <center>
-                    <p>Pronto para assistir? Informe seu email para criar ou reiniciar sua assinatura.</p>
-                </center>
-            </div>
-
-            <center>
-                <label><strong></strong></label>
-                <input type="email" name="email" required placeholder="E-mail"> <button type="submit"><strong>Vamos
-                        lá</strong></button><br>
-            </center>
+            </section>
 
         </article>
-
     </main>
-
+    
     <footer>
         <span class="direitos"> 2022 &copy; todos os direitos reservados</span>
         <span class="assinatura">feito por
