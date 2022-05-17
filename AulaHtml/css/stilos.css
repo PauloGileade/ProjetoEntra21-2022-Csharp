@@ -1,76 +1,102 @@
 @import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200;400;800&family=Roboto:wght@400;700&display=swap');
+
 html, body, h2{
     margin: 0;
     padding: 0;
     overflow-x: hidden;
     overflow-y: auto;
 }
-header{
-    background: url(https://sm.ign.com/t/ign_br/screenshot/default/blob_xs8w.h1280.jpg);
-}
-nav img{
-    right: 0;
-    top: 0;
-    width: 200px;
-    height: auto;
-}
-nav select{
-    position: absolute;
-    top: 25px;
-    left: 83%;
-    padding: 7px;
-}
-.buttonEntrar{
-    top: 26px;
-    left: 92%;
-    width: 5%;
-    display: block;
-    position: absolute;
-    float: left;
-    padding: 6px;
-    text-align: center;
-    text-decoration: none;
-    color: white;
-    background-color: rgb(248, 10, 10);
-    border-radius: 5px;
-}
-nav h1{
-    font-family: 'roboto', sans-serif;
-    font-size: 50px;
-    color: white;
-}
-nav h3{
-    font-family: sans-serif;
-    font-size: 23px;
-    color: white;
-}
-nav h4{
-    font-family: sans-serif;
-    font-size: 19px;
-    color: white;
-}
-.spaceEmail{
-    height: 48px;
-    padding: 10px 10px 0;
-    width: 30%;
-}
-.buttonEmail{
-    font-family:'roboto'sans-serif;
-    font-size: 23px;
-    height: 62px;
-    padding: 10px 10px 7px 10px;
-    width: 14%;
-    background-color: rgb(248, 10, 10);
-    color: white;
+
+*{
+    font-family: 'Dosis', sans-serif;
 }
 
-main{
-    background-color: black;
-    padding: 200px 10px;
+.logosite{
+    float: left;
+    width: 95px;
 }
-.carousel{
-    
+
+nav {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 55px;
+    background: red;
 }
+
+nav a {
+    display: block;
+    width: auto;
+    height: 56px;
+    padding: 4px;
+    float: left;
+    line-height: 53px;
+    color: #ffff;
+    text-decoration: none;
+    font-weight: 200;
+    font-size: 18px;
+  
+}
+
+main {
+    padding: 80px 0;
+}
+
+main article img {
+    float: left;
+    margin-right: 10px;
+    border: 1px solid black;
+    border-radius: 15px;
+    width: 300px;
+}
+
+.homeArticle{
+    width: 42%;
+    background: red;
+    margin: 50px 2%;
+    border-radius: 15px;
+    box-shadow: 7px 7px 9px -2px rgb(0 0 0 / 74%);
+    padding: 15px;
+    display: inline-block;
+}
+
+main article h2 {
+    font-size: 16px;
+    text-transform: uppercase;
+    color: black;
+}
+
+main article h3{
+    color: #fff;
+}
+
+main article p {
+    font-style:normal;
+    text-indent: 20px;
+    color: #fff;
+}
+
+main article a {
+    display: inline-block;
+    width: auto;
+    padding: 4px;
+    background: black;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    float: right;
+    transition: 0.15s padding ease-out, 0.15s border-radius ease-out, 0.15s border ease-out;
+}
+
+main article a:hover {
+    /* background: green; */
+    box-shadow: 7px 7px 9px -2px rgb(0 0 0 / 74%);
+    padding: 6px;
+    border-radius: 15px;
+    transition: 0.15s padding ease-out, 0.15s border-radius ease-out;
+}
+
 .carousel li{
 	list-style: none;
     display: inline-block;
@@ -81,21 +107,25 @@ main{
     float: left;
     margin:  2%;
 }
+
 footer{
     width: 100%;
     height: 40px;
     position: fixed;
     bottom: 0;
-    background: firebrick;
+    background: red;
 }
+
 footer .assinatura{
     text-align: right;
 }
+
 footer .assinatura a{
     color: white;
     text-decoration: none;
     padding-left: 25px;
 }
+
 footer span{
     display: inline-block;
     width: 48%;
