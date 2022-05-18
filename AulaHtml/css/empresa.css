@@ -1,0 +1,19 @@
+.pageEmpresa article{
+    width: auto;
+    background-color:  #bab6b6;
+    margin: 50px 2%;
+    border-radius: 15px;
+    box-shadow: 7px 7px 9px -2px rgb(0 0 0 / 74%);
+    padding: 15px;
+    display: inline-block;
+}
+.pageEmpresa article li{
+    width: auto;
+    background-color: #181818;
+    color: white;
+    margin: 50px 2%;
+    border-radius: 15px;
+    box-shadow: 7px 7px 9px -2px rgb(0 0 0 / 74%);
+    padding: 15px;
+    display: inline-block;
+}

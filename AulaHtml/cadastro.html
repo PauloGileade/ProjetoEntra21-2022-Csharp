@@ -6,7 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" href="css/stilos.css">
+    <link rel="stylesheet" href="css/global.css">
+    <link rel="stylesheet" href="css/cadastro.css">
     <title>NAsports</title>
 </head>
 
@@ -20,93 +21,55 @@
             <a href="index.html"><strong>Home</strong></a>
             <a href="empresa.html"><strong>Empresa</strong></a>
             <a href="noticia.html"><strong>Noticias</strong></a>
-            <a href="cadastro.html"><strong>Cadastro</strong></a>
-
+            <a href="futinternacional.html"> <strong>Futebol Internacional</strong></a>
+            <a href="cadastro.html"><strong>Assine NAsports</strong></a>
         </nav>
 
     </header>
 
-    <main>
+    <main class="pageCadastro">
 
         <article>
+            <h1>Cadastro NAsports</h1>
+        </article>
 
-            <div>
-
-
-                <form action="enviaemail.cs" id="cadastroPessoa" method="get" enctype="multipart/form-data">
-
-                    <!--Criando espaços para inserir informações-->
-                    <label><strong>Nome:</strong></label>
-                    <input type="text" name="nome" required placeholder="Nome Completo">
-
-                    <label><strong>CPF:</strong></label>
-                    <input type="number" name="CPF" required placeholder="CPF">
-
-                    <label><strong>RG:</strong></label>
-                    <input type="number" name="RG" required placeholder="RG">
-
-                    <label><strong>E-mail:</strong></label>
-                    <input type="email" name="email" required placeholder="E-mail">
-
-                    <label><strong>Celular:</strong></label>
-                    <input type="number" name="celular" required placeholder="Celular">
-
-                    <label><strong>Senha:</strong></label>
-                    <input type="password" name="senha" minlength="8" maxlength="10" required>
-
-                    <label><strong>Endereço:</strong></label>
-                    <input type="text" name="endereço" required>
-
-                    <label><strong>N°:</strong></label>
-                    <input type="number" name="numero" required>
-
-                    <label><strong>Bairro:</strong></label>
-                    <input type="text" name="bairro" required>
-
-                    <label><strong>Cidade:</strong></label>
-                    <input type="text" name="cidade" required>
-
-                    <!--Selecionando opções no formulário radio-->
-                    <label><strong>Nacionalidade: </strong></label>
-                    <span>
-                        <input type="radio" name="Nacionalidade" value="Brasileiro"> Brasileiro
-                        <input type="radio" name="Nacionalidade" value="Outro"> Outro
-                    </span>
-
-                    <!--Selecionando opções no formulário com select-->
-                    <label><strong>Estado: </strong></label>
-                    <select name="estado">
-                        <option value="">Selecione o estado</option>
-                        <option value="SC" selected>Santa Catarina</option>
-                        <option value="PR">Paraná</option>
-                        <option value="RS">Rio Grande do Sul</option>
-                    </select>
-
-                    <label><strong>Sexo: </strong></label>
-                    <select name="sexo">
-                        <option value="">Sexo</option>
-                        <option value="M">Masculino</option>
-                        <option value="F">Feminino</option>
-                    </select>
-
-                    <label><strong>Foto: </strong></label>
-                    <input type="file" name="foto" multiple><br>
-
-                    <textarea name="mensagem" required cols="30" rows="10"></textarea>
-
-                    <input type="checkbox" name="Autorização" value="">Aceito receber comunicações do StarBank por
-                    WhatsApp.
-
-                    <input type="hidden" name="codigoIbge" value="1058483">
-
-                    <!--Botões no Formulário-->
-                    <button type="submit"><strong>Enviar</strong></button>
-                    <button type="reset"><strong>Limpar</strong></button>
-
-                </form>
+        <form action="#">
+            <div class="formGroup metade">
+                <label for="nome">Nome</label>
+                <input type="text" name="nome">
             </div>
 
-        </article>
+            <div class="formGroup metade">
+                <label for="email">E-mail</label>
+                <input type="text" name="email">
+            </div>
+
+            <div class="formGroup total">
+                <label for="whatsapp">WhatsApp</label>
+                <input type="text" name="whatsapp">
+            </div>
+
+            <div class="formGroup total">
+                <label for="setor">Setor</label>
+                <select name="setor">
+                    <option value="">Selecione</option>
+                    <option value="1">Vendas</option>
+                    <option value="2">Financeiro</option>
+                    <option value="3">Gerência</option>
+                    <option value="4">Diretoria</option>
+                </select>
+            </div>
+
+            <div class="formGroup total">
+                <label for="mensagem">Sua Mensagem</label>
+                <textarea name="mensagem"></textarea>
+            </div>
+
+            <div class="formGroup inteiro">
+                <button type="submit">ENVIAR</button>
+            </div>
+
+        </form>
 
     </main>
 
