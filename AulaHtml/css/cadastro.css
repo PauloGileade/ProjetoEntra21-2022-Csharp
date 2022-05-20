@@ -1,8 +1,11 @@
+main{
+	padding: 41px 0px;
+}
 .pageCadastro article h1{
-    background-color: grey;
     color: white;
     text-align: center;
     font-size: 25px;
+	background-image: linear-gradient(to right, grey, black);
 }
 form{
 	width: 700px;

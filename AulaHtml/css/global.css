@@ -17,6 +17,9 @@ header{
     position: absolute;
     width: 100%;
     height: auto;
+    margin: auto;
+    padding-right: 10px;
+    padding-left: 10px;
     background-color:#364A4C;
     box-shadow: 1px 1px 7px 1px #bab6b6;
 }
@@ -39,8 +42,10 @@ nav a {
     font-weight:200;
     font-size: 18px;
 }
-main {
-    padding: 80px 0;
+nav a:hover{
+    background-color: #202020;
+    border-radius: 10px;
+    text-decoration: #202020;
 }
 footer{
     width: 100%;
