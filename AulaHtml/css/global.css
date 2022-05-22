@@ -7,45 +7,14 @@ html, body, h2{
     overflow-x: hidden;
     overflow-y: auto;
 }
-*{
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-}
 body{
-    background:#202020;
-}
-header{
-    position: absolute;
-    width: 100%;
-    height: auto;
-    margin: auto;
-    padding-right: 10px;
-    padding-left: 10px;
-    background-color:#364A4C;
-    box-shadow: 1px 1px 7px 1px #bab6b6;
+    
 }
 .logosite{
     float: left;
-    width: 85px;
-    margin: 4px;
-    padding: 4px 4px;
-}
-nav a {
-    display:block;
-    width: auto;
-    height: 55px;
-    padding: 4px;
-    float: left;
-    line-height: 53px;
-    color: #ffff;
-    text-decoration: none;
-    margin-right: 30px;
-    font-weight:200;
-    font-size: 18px;
-}
-nav a:hover{
-    background-color: #202020;
-    border-radius: 10px;
-    text-decoration: #202020;
+    width: 91px;
+    margin: 0px auto;
+    padding: 0px 5px;
 }
 footer{
     width: 100%;

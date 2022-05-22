@@ -1,53 +1,10 @@
-main{
-    padding: 100px 50px 100px 50px;
-  background-color: #181818;
+.logosite{
+    position: relative;
+    width: 80px;
+    padding: 8px 0px;
 }
-main article {
-    width: 700px;
-    height: auto;
-    background-color: #bab6b6;
-    margin: 20px 2%;
-    border-radius: 15px;
-    box-shadow: 7px 7px 9px -2px rgb(0 0 0 / 74%);
-    padding: 15px;
-    display: inline-block;
-}
-main article img {
-    float: left;
-    margin-right: 10px;
-    border: 1px solid unset;
-    border-radius: 15px;
-    width: 300px;
-}
-main article h2 {
-    font-size: 16px;
-    text-transform: uppercase;
-    color: black;
-}
-main article h3{
-    color: black;
-}
-main article p {
-    font-style:normal;
-    text-indent: 15px;
-    text-align: left;
-    color: black;
-}
-main article a {
-    display: inline-block;
-    width: auto;
-    padding: 4px;
-    background-color: #181818;
-    color: #fff;
-    text-decoration: none;
-    border-radius: 5px;
-    float: right;
-    transition: 0.15s padding ease-out, 0.15s border-radius ease-out, 0.15s border ease-out;
-}
-main article a:hover {
-    /* background: green; */
-    box-shadow: 7px 7px 9px -2px rgb(0 0 0 / 74%);
-    padding: 6px;
-    border-radius: 15px;
-    transition: 0.15s padding ease-out, 0.15s border-radius ease-out;
+body{
+    margin: 0%;
+    padding: 0%;
+    background-color: white;
 }

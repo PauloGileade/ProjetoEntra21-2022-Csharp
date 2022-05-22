@@ -7,8 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="css/index.css">
-    <link rel="stylesheet" href="css/global.css">
-    <link rel="stylesheet" href="csss/bootstrap.css">
+    <link rel="stylesheet" href="cssMaterialize/materialize.css">
     <title>NAsports</title>
 </head>
 
@@ -16,98 +15,182 @@
 
     <header>
         <nav>
-
-            <img src="img/logosite.png" class="logosite" alt="">
-            <a href="index.html"><strong>Home</strong></a>
-            <a href="empresa.html"><strong>Empresa</strong></a>
-            <a href="noticia.html"><strong>Noticias</strong></a>
-            <a href="futinternacional.html"><strong>Futebol Internacional</strong></a>
-            <a href="cadastrao.html"><strong>Assine NAsports</strong></a>
-
+            <div class="nav-wrapper grey darken-3">
+                <a href="#" class="brand-logo center"><img class="logosite" src="img/logosite.png" alt=""></a>
+                <ul id="nav-mobile" class="left hide-on-med-and-down">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="Lancamentos.html">Lançamentos</a></li>
+                    <li><a href="masculino.html">Masculino</a></li>
+                    <li><a href="feminino.html">Feminino</a></li>
+                    <li><a href="infantil.html">Infantil</a></li>
+                    <li><a href="cadastro.html">NAsports</a></li>
+                </ul>
+            </div>
         </nav>
     </header>
 
-    <main>
+    <div class="row">
+        <div class="carousel carousel-slider">
+            <a class="carousel-item" href="#one!"><img
+                    src="https://images.lojanike.com.br/hotsitevitrine/ni/0/1653062220/assets/img/50-anos-desk.jpg"
+                    width="100%"></a>
+            <a class="carousel-item" href="#two!" width="100%"><img
+                    src="https://images.lojanike.com.br/hotsitevitrine/ni/0/1653062220/assets/img/camisa-2-corinthians-desk.jpg"></a>
+            <a class="carousel-item" href="#two!" width="100%"><img
+                    src="https://images.lojanike.com.br/hotsitevitrine/ni/0/1653062220/assets/img/inverno-desk.jpg"></a>
+        </div>
+    </div>
 
-        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
-            <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <img src="img/01netfilx.png" class="d-block w-100" alt="...">
+    <div class="carousel carousel-slider center">
+        <div class="carousel-fixed-item center">
+          <a class="btn waves-effect white grey-text darken-text-2">button</a>
+        </div>
+        <div class="carousel-item red white-text" href="#one!">
+          <h2>First Panel</h2>
+          <p class="white-text">This is your first panel</p>
+        </div>
+        <div class="carousel-item amber white-text" href="#two!">
+          <h2>Second Panel</h2>
+          <p class="white-text">This is your second panel</p>
+        </div>
+        <div class="carousel-item green white-text" href="#three!">
+          <h2>Third Panel</h2>
+          <p class="white-text">This is your third panel</p>
+        </div>
+        <div class="carousel-item blue white-text" href="#four!">
+          <h2>Fourth Panel</h2>
+          <p class="white-text">This is your fourth panel</p>
+        </div>
+      </div>
+
+    <main class="container">
+
+        <div class="row cards">
+            <div class="col s12 m12">
+
+                <div class="col s12 m4">
+                    <div class="card large">
+                        <div class="card-image">
+                            <img
+                                src="https://images.lojanike.com.br/320x320/produto/tenis-nike-flyby-mid-3-DD9311-003-1-11638990498.jpg">
+                            <span class="card-title"></span>
+                        </div>
+                        <div class="card-content">
+                            <p>Tênis Nike FlyBy Mid 3 Masculino
+                                Basquete
+                                R$ 499,99</p>
+                        </div>
+                        <div class="card-action">
+                            <button class="btn">Comprar</button>
+                        </div>
+                    </div>
                 </div>
-                <div class="carousel-item">
-                    <img src="img/195150-futebol-no-brasil-conheca-os-maiores-marcos-do-esporte-no-nosso-pais-1.jpg" class="d-block w-100" alt="...">
+
+                <div class="col s12 m4">
+                    <div class="card large">
+                        <div class="card-image">
+                            <img
+                                src="https://images.lojanike.com.br/320x320/produto/tenis-nike-court-vision-mid-DN3577-100-1-11630590912.jpg">
+                            <span class="card-title"></span>
+                        </div>
+                        <div class="card-content">
+                            <p>Tênis Nike Sportswear Court Vision Mid Next Nature Masculino
+                                Casual
+                                R$ 549,99</p>
+                        </div>
+                        <div class="card-action">
+                            <button class="btn">Comprar</button>
+                        </div>
+                    </div>
                 </div>
-                <div class="carousel-item">
-                    <img src="https://assets.goal.com/v3/assets/bltcc7a7ffd2fbf71f5/blt5da5539bac61f0bd/6272f116c87ac24b0163ca73/rodrygo-zinchenko.jpg?auto=webp&format=jpg&quality=100" class="d-block w-100" alt="...">
-                </div>
-                <div class="carousel-item">
-                    <img src="https://www.realmadrid.com/cs/Satellite?blobcol=urldata&blobheader=image%2Fjpeg&blobkey=id&blobtable=MungoBlobs&blobwhere=1203427034586&ssbinary=true" class="d-block w-100" alt="...">
+
+                <div class="col s12 m4">
+                    <div class="card large">
+                        <div class="card-image">
+                            <img
+                                src="https://images.lojanike.com.br/320x320/produto/tenis-jordan-one-take-3-DC7701-002-1-11628869548.jpg">
+                            <span class="card-title"></span>
+                        </div>
+                        <div class="card-content">
+                            <p>Treinador está de volta ao clube, assiste ao jogo desta terça pela Sul-Americana e
+                                dirige
+                                o time sábado contra o Coritiba.</p>
+                        </div>
+                        <div class="card-action">
+                            <button class="btn">Comprar</button>
+                        </div>
+                    </div>
                 </div>
             </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
-                data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
-                data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Next</span>
-            </button>
         </div>
 
-        <section>
-            <article>
+        <div class="row cards">
+            <div class="col s12 m12">
 
-                <h2>Internacional</h2>
-                <img src="https://s2.glbimg.com/QtDrUcB58aMxNPS5yGUsNHmDRcI=/0x0:2048x1152/540x304/smart/filters:max_age(3600)/https://i.s3.glbimg.com/v1/AUTH_bc8228b6673f488aa253bbcb03c80ec5/internal_photos/bs/2021/d/o/ruoBCiRAatugreVAWa9w/inter.jpg"
-                    alt="">
-                <h3>Prazo impede Inter de usar uniforme preto em ação contra o racismo na Sul-Americana</h3>
-                <p>Clube estuda medidas de repúdio após fato envolvendo o volante Edenilson e o lateral Rafael Ramos, do
-                    Corinthians</p>
-                <a href="noticia.html">Ler noticia</a>
+                <div class="col s12 m4">
+                    <div class="card large">
+                        <div class="card-image">
+                            <img
+                                src="https://images.lojanike.com.br/320x320/produto/tenis-nike-flyby-mid-3-DD9311-003-1-11638990498.jpg">
+                            <span class="card-title"></span>
+                        </div>
+                        <div class="card-content">
+                            <p>Tênis Nike FlyBy Mid 3 Masculino
+                                Basquete
+                                R$ 499,99</p>
+                        </div>
+                        <div class="card-action">
+                            <button class="btn">Comprar</button>
+                        </div>
+                    </div>
+                </div>
 
-            </article>
-        </section>
+                <div class="col s12 m4">
+                    <div class="card large">
+                        <div class="card-image">
+                            <img
+                                src="https://images.lojanike.com.br/320x320/produto/tenis-nike-court-vision-mid-DN3577-100-1-11630590912.jpg">
+                            <span class="card-title"></span>
+                        </div>
+                        <div class="card-content">
+                            <p>Tênis Nike Sportswear Court Vision Mid Next Nature Masculino
+                                Casual
+                                R$ 549,99</p>
+                        </div>
+                        <div class="card-action">
+                            <button class="btn">Comprar</button>
+                        </div>
+                    </div>
+                </div>
 
-        <section>
-            <article>
-
-                <h2>Naútico</h2>
-                <img src="https://s2.glbimg.com/WdSAGbOW9yqEcRKsX1fjqc2YJWc=/0x0:1920x1080/810x456/smart/filters:max_age(3600)/https://i.s3.glbimg.com/v1/AUTH_bc8228b6673f488aa253bbcb03c80ec5/internal_photos/bs/2022/k/Y/AQiDsQT06iwm9OWzGJ9A/clip001-frames-jean-e-deborah-02.jpg"
-                    alt="">
-                <h3>Por tentativa de agressão à árbitra, Jean Carlos pega 10 jogos no Estadual e pode jogar Série B</h3>
-                <p>Meia corria risco de ser suspenso por 90 dias por partir para cima de Deborah Cecília na decisão do
-                    Pernambucano</p>
-                <a href="noticia.html">Ler noticia</a>
-
-            </article>
-        </section>
-
-        <section>
-            <article>
-
-                <h2>Atlético-GO</h2>
-                <img src="https://s2.glbimg.com/_gnkY7r_QiQYbmUyo6_7DsweEy0=/0x55:1200x730/810x456/smart/filters:max_age(3600)/https://s2.glbimg.com/8Y7Q5zhwZwCoxDsjJZAIVffAHpY=/1200x/smart/filters:cover():strip_icc()/i.s3.glbimg.com/v1/AUTH_bc8228b6673f488aa253bbcb03c80ec5/internal_photos/bs/2021/t/i/AX9kPsT4WbGsB12gru2Q/whatsapp-image-2021-04-05-at-17.15.48-3-.jpeg"
-                    alt="">
-                <h3>Atlético-GO acerta contratação do técnico Jorginho para sequência da temporada</h3>
-                <p>Treinador está de volta ao clube, assiste ao jogo desta terça pela Sul-Americana e dirige o time
-                    sábado contra o Coritiba</p>
-                <a href="noticia.html">Ler noticia</a>
-
-            </article>
-        </section>
-
+                <div class="col s12 m4">
+                    <div class="card large">
+                        <div class="card-image">
+                            <img
+                                src="https://images.lojanike.com.br/320x320/produto/tenis-jordan-one-take-3-DC7701-002-1-11628869548.jpg">
+                            <span class="card-title"></span>
+                        </div>
+                        <div class="card-content">
+                            <p>Treinador está de volta ao clube, assiste ao jogo desta terça pela Sul-Americana e
+                                dirige
+                                o time sábado contra o Coritiba.</p>
+                        </div>
+                        <div class="card-action">
+                            <button class="btn">Comprar</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </main>
 
-    <footer>
-        <span class="direitos"> 2022 &copy; todos os direitos reservados</span>
-        <span class="assinatura">feito por
-            <a href="index.html" target="_black">Paulo Gileade</a>
-        </span>
+    <footer class="page-footer grey darken-3">
+        <div class="footer-copyright">
+
+        </div>
     </footer>
 
-    <script src="js/bootstrap.min.js"></script>
+    <script src="js/materialize.js"></script>
     <script src="js/app.js"></script>
 </body>
 

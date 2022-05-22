@@ -1,0 +1,12 @@
+.col1{
+    background-color: green;
+}
+.col2{
+    background-color: yellow;
+}
+.col3{
+    background-color: blue;
+}
+.flexcontainer{
+    justify-content: center;
+}
